@@ -1,0 +1,12 @@
+Goal-driven developmental learning on a mobile robot
+
+This is the source code for controlling the Corvid mobile robot, as used in the thesis.
+
+
+Abstract
+
+Since the early 1980s, mobile robots have been programmed to avoid objects and navigate environments. Prior knowledge about the robot's sensors and actuators was used to solve this problem. But as robotics systems were expected to address more complex tasks, traditional robot architectures failed to scale up to them. One interesting approach to this problem can be seen in the field of developmental robotics, which was influenced in large parts by the cognitive science community and benefits from the mutual interests of developmental psychology and robotics. The main research question in this field is how an embodied agent can learn complex tasks by exploring its environment. This experience-based learning approach aims to solve the scaling problem of robotics.
+
+In this thesis, a developmental learning architecture is implemented on a mobile robot. It allows the robot to autonomously construct a sensomotoric model, without prior knowledge about its sensor configuration. This model can then be used to predict the outcome of the robot's actions. In the proposed architecture, the agent uses these predictions to reach specific sensor states, resulting in goal-driven behavior.
+
+The results show that the robot was able to keep specific distances to objects using its ultrasonic distance sensors, without being preprogrammed with an algorithm that describes the necessary actions. We conclude that experience-based learning is a feasible approach in robotics, and it is our belief that research from developmental psychology will become an important influence in this area.
